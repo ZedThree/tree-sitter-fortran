@@ -10853,11 +10853,6 @@
       "complex_literal"
     ],
     [
-      "_inline_if_statement",
-      "_block_if_statement",
-      "identifier"
-    ],
-    [
       "argument_list",
       "parenthesized_expression"
     ],
@@ -10886,10 +10881,6 @@
       "elsewhere_clause"
     ],
     [
-      "format_statement",
-      "identifier"
-    ],
-    [
       "interface_statement"
     ],
     [
@@ -10897,16 +10888,8 @@
       "identifier"
     ],
     [
-      "inquire_statement",
-      "identifier"
-    ],
-    [
       "module_statement",
       "procedure_qualifier"
-    ],
-    [
-      "null_literal",
-      "identifier"
     ],
     [
       "procedure_declaration"
@@ -10924,9 +10907,6 @@
     ],
     [
       "type_statement"
-    ],
-    [
-      "translation_unit"
     ]
   ],
   "precedences": [],
