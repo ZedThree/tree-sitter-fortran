@@ -27,6 +27,7 @@ PROGRAM TEST
     cpx_val = (dbl_val, dbl_val)
     cpx_val = (-1.0, 1.0)
     cpx_val = (1.0, -1.0)
+    bool_val = .true.
     bool_val = .false._c_bool
 END PROGRAM
 
@@ -59,6 +60,7 @@ END PROGRAM
     (assignment_statement (identifier) (complex_literal (identifier) (identifier)))
     (assignment_statement (identifier) (complex_literal (unary_expression (number_literal)) (number_literal)))
     (assignment_statement (identifier) (complex_literal (number_literal) (unary_expression (number_literal))))
+    (assignment_statement (identifier) (boolean_literal))
     (assignment_statement (identifier) (boolean_literal))
   (end_program_statement)))
 
